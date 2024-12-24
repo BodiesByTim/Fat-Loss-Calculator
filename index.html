@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tim's Fat Loss Calculator</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="container">
         <h1>Tim's Fat Loss Calculator</h1>
-        <p>Enter your details below to get your personalized daily calorie target and macronutrient breakdown!</p>
+        <p>Enter your details to calculate your daily calorie target and macronutrient breakdown.</p>
         
+        <!-- Input Fields -->
         <label for="weight">Your current weight (lbs):</label>
         <input type="number" id="weight" placeholder="Enter your weight" required>
         
@@ -29,14 +31,14 @@
         <button onclick="calculateFatLoss()">Calculate Your Plan</button>
         
         <div id="results">
-            <!-- Results will show up here -->
+            <!-- Results will appear here -->
         </div>
     </div>
-    
+
     <footer>
-        All Rights Reserved To BodiesByTim
+        All rights reserved to the Roberts & Belot Family
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
